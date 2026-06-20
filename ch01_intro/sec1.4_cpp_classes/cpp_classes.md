@@ -18,7 +18,7 @@ If no constructor is explicitly define, one that initializes the data memers usi
 In the example we see, if we were to create an instance of IntCell then if we pass no arguments storedValue will become 0 and the first constructor will run automatically. If we pass one argument then the second constructor will run automatically and storedValue will be updated accordingly.
 
 
-'''cpp
+```cpp
 /**
 * A class for simulating an integer memory cell
 */
@@ -54,4 +54,4 @@ class IntCell
   private:
     int storedValue;
 };
-'''
+```
